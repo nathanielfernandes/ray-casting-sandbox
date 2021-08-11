@@ -18,7 +18,7 @@ This ray casting engine was written in rust and uses the macroquad game developm
 
 # Try it out
 
-The engine was built for wasm and is available [HERE](https://nathanielfernandes.github.io)
+The engine was built for wasm and is available [HERE](https://raycasting.nathanferns.xyz/)
 
 ## Screenshots
 
