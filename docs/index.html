@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nathans Game</title>
+    <style>
+        html,
+        canvas {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 92%;
+            overflow: hidden;
+            /* position: absolute; */
+            background: rgb(25, 25, 25);
+            z-index: 0;
+        }
+        * {
+            font-family: sans-serif;
+        }
+        body {
+            margin: 0 auto;
+        }
+        main {
+            justify-content: center;
+            
+        }
+
+        h1 {
+            color:white;
+            margin-bottom: 0;
+            margin-top: 10px;
+        }
+
+        p {
+            color:white;
+        }
+        div {
+            display:flex;            
+            justify-content: center;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div>
+            <h1>Ray Casting Sandbox</h1>
+        </div>
+        <div>
+            <p>by: Nathaniel Fernandes <br> wasd to move, click to create and delete walls. shift click to create and delete sprites. Hit space for settings.<br> <a href="https://github.com/nathanielfernandes" target="_blank">source</a></p>
+            
+        </div>
+        
+        <canvas id="glcanvas" tabindex='1'></canvas>
+        <script src="https://not-fl3.github.io/miniquad-samples/gl.js"></script>
+        <script>load("gamedev.wasm");</script>
+        
+    </main>
+
+</body>
+
+</html>
