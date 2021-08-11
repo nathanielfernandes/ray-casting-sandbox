@@ -1,8 +1,8 @@
 # Ray Casting Sandbox
 
-## An implementation of raycasting to display a psuedo 3D playground
+## An implementation of raycasting to display a pseudo 3D playground
 
-Many early "3D" games (such as Wolfenstein 3D) used the same or similar techniques to create psuedo 3D worlds.
+Many early "3D" games (such as Wolfenstein 3D) used the same or similar techniques to create pseudo 3D worlds.
 Although only squares can be placed in the editor this engine works with any polygon or shape. (diagonal walls aswell).
 
 ## About
