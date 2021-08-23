@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nathans Game</title>
+    <style>
+        html,
+        canvas {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            /* position: absolute; */
+            background: rgb(25, 25, 25);
+            z-index: 0;
+        }
+        * {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="glcanvas" tabindex='1'></canvas>
+    <script src="https://not-fl3.github.io/miniquad-samples/gl.js"></script>
+    <script>load("gamedev.wasm");</script>
+</body>
